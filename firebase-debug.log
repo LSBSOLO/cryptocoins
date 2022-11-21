@@ -1,0 +1,86 @@
+[debug] [2022-11-03T05:26:57.059Z] ----------------------------------------------------------------------
+[debug] [2022-11-03T05:26:57.061Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Luis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-03T05:26:57.061Z] CLI Version:   11.16.0
+[debug] [2022-11-03T05:26:57.062Z] Platform:      win32
+[debug] [2022-11-03T05:26:57.062Z] Node Version:  v18.12.0
+[debug] [2022-11-03T05:26:57.062Z] Time:          Thu Nov 03 2022 05:26:57 GMT+0000 (Western European Standard Time)
+[debug] [2022-11-03T05:26:57.062Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-03T05:26:57.114Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-03T05:26:57.115Z] > authorizing via signed-in user (lswork122@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Luis\Desktop\crypto-react-firebase-main
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-03T05:27:48.262Z] Using project from CLI flag: cryptobase-7b9b5
+[debug] [2022-11-03T05:27:48.264Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cryptobase-7b9b5 [none]
+[debug] [2022-11-03T05:27:48.792Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cryptobase-7b9b5 403
+[debug] [2022-11-03T05:27:48.792Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cryptobase-7b9b5 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-03T05:27:48.792Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-03T05:27:48.883Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Luis\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Luis\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project cryptobase-7b9b5. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-11-03T05:31:35.131Z] ----------------------------------------------------------------------
+[debug] [2022-11-03T05:31:35.133Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Luis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-03T05:31:35.133Z] CLI Version:   11.16.0
+[debug] [2022-11-03T05:31:35.133Z] Platform:      win32
+[debug] [2022-11-03T05:31:35.134Z] Node Version:  v18.12.0
+[debug] [2022-11-03T05:31:35.134Z] Time:          Thu Nov 03 2022 05:31:35 GMT+0000 (Western European Standard Time)
+[debug] [2022-11-03T05:31:35.134Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-03T05:31:35.184Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-03T05:31:35.184Z] > authorizing via signed-in user (lswork122@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Luis\Desktop\crypto-react-firebase-main
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-03T05:31:39.191Z] Using project from CLI flag: cryptobase-7b9b5
+[debug] [2022-11-03T05:31:39.193Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cryptobase-7b9b5 [none]
+[debug] [2022-11-03T05:31:39.573Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cryptobase-7b9b5 403
+[debug] [2022-11-03T05:31:39.573Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cryptobase-7b9b5 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-03T05:31:39.574Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-03T05:31:39.673Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Luis\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Luis\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project cryptobase-7b9b5. Please make sure the project exists and your account has permission to access it.
